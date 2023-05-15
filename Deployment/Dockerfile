@@ -6,7 +6,6 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-
 ARG FEED_TOKEN
 
 #RUN dotnet nuget add source https://nuget.pkg.github.com/artur-mezhidov-itechart/index.json --name github.com --username github --password $FEED_TOKEN --store-password-in-clear-text
