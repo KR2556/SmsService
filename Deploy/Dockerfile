@@ -8,10 +8,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
 ARG FEED_TOKEN
-ADD ./../src .
 #RUN dotnet nuget add source https://nuget.pkg.github.com/artur-mezhidov-itechart/index.json --name github.com --username github --password $FEED_TOKEN --store-password-in-clear-text
 WORKDIR /src
-COPY ["./Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sender.Application/"]
+COPY ["src/Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sender.Application/"]
 
 #COPY ["src/Sms.Sender.Services/Sms.Sender.Services.csproj", "src/Sms.Sender.Services/"]
 #COPY ["src/Sms.Sender.Provider.Twilio/Sms.Sender.Provider.Twilio.csproj", "src/Sms.Sender.Provider.Twilio/"]
