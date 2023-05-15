@@ -12,7 +12,6 @@ ARG FEED_TOKEN
 WORKDIR /src
 COPY ["./src/Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sender.Application/"]
 COPY ["../src/Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sender.Application/"]
-COPY ["~/src/Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sender.Application/"]
 
 #COPY ["src/Sms.Sender.Services/Sms.Sender.Services.csproj", "src/Sms.Sender.Services/"]
 #COPY ["src/Sms.Sender.Provider.Twilio/Sms.Sender.Provider.Twilio.csproj", "src/Sms.Sender.Provider.Twilio/"]
