@@ -2,8 +2,7 @@ name: Build app with docker
 on:
   push:
     branches:
-      - 'main'
-      
+      - 'main'   
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
