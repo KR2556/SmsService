@@ -11,7 +11,7 @@ builder.Host
 	.ConfigureServices((context, services) =>
 	{
 		services.AddProviders(context.Configuration);
-		services.AddConsumers(context.Configuration);
+		//services.AddConsumers(context.Configuration);
 	});
 
 var app = builder.Build();
