@@ -16,7 +16,7 @@ COPY ["src/Sms.Sender.Application/Sms.Sender.Application.csproj", "src/Sms.Sende
 COPY ["src/Sms.Sender.Services/Sms.Sender.Services.csproj", "src/Sms.Sender.Services/"]
 COPY ["src/Sms.Sender.Provider.Twilio/Sms.Sender.Provider.Twilio.csproj", "src/Sms.Sender.Provider.Twilio/"]
 COPY ["src/Sms.Sender.Provider/Sms.Sender.Provider.csproj", "src/Sms.Sender.Provider/"]
-COPY ["src//Sms.Sender.Provider.Mock/Sms.Sender.Provider.Mock.csproj", "src/Sms.Sender.Provider.Mock/"]
+COPY ["src/Sms.Sender.Provider.Mock/Sms.Sender.Provider.Mock.csproj", "src/Sms.Sender.Provider.Mock/"]
 #RUN dotnet restore "src/Sms.Sender.Application/Sms.Sender.Application.csproj"
 #COPY . .
 #WORKDIR "/src/src/Sms.Sender.Application"
