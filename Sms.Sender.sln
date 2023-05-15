@@ -25,6 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Application", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Client.Sample", "src\Sms.Sender.Client.Sample\Sms.Sender.Client.Sample.csproj", "{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{18EBB771-6114-42B1-9D26-418AAEF3194B}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Dockerfile = Deployment\Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
