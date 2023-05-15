@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sms.Sender.Provider", "Sms.Sender.Provider", "{F8958017-2266-40D7-822C-6133CAB058CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Provider", "src\Sms.Sender.Provider\Sms.Sender.Provider.csproj", "{BDE54870-C020-4D8D-8695-D6C83E66024B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Provider.Mock", "src\Sms.Sender.Provider.Mock\Sms.Sender.Provider.Mock.csproj", "{C4B1B9F0-BA0D-46DA-B687-97917388E776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sms.Sender", "Sms.Sender", "{661B453A-EE55-4B83-A428-7F96D1D71F66}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sms.Sender.DataContracts", "src\Sms.Sender.DataContracts\Sms.Sender.DataContracts.shproj", "{785BCA09-A0F3-4B86-BB2B-6B34E4959B7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Provider.Twilio", "src\Sms.Sender.Provider.Twilio\Sms.Sender.Provider.Twilio.csproj", "{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sms.Sender.Client", "Sms.Sender.Client", "{185B6FA4-599D-4FB3-A8D2-3D4104C33C00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Client", "src\Sms.Sender.Client\Sms.Sender.Client.csproj", "{B7A6ABA7-5229-482E-9E25-BDFC170CE79C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Services", "src\Sms.Sender.Services\Sms.Sender.Services.csproj", "{218201A8-4412-42FE-9D2E-1CDD53C2AB6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Application", "src\Sms.Sender.Application\Sms.Sender.Application.csproj", "{AE08518B-24D4-4FE5-A956-C257C31D5B2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sms.Sender.Client.Sample", "src\Sms.Sender.Client.Sample\Sms.Sender.Client.Sample.csproj", "{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE54870-C020-4D8D-8695-D6C83E66024B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE54870-C020-4D8D-8695-D6C83E66024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE54870-C020-4D8D-8695-D6C83E66024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE54870-C020-4D8D-8695-D6C83E66024B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B1B9F0-BA0D-46DA-B687-97917388E776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B1B9F0-BA0D-46DA-B687-97917388E776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B1B9F0-BA0D-46DA-B687-97917388E776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B1B9F0-BA0D-46DA-B687-97917388E776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A6ABA7-5229-482E-9E25-BDFC170CE79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A6ABA7-5229-482E-9E25-BDFC170CE79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A6ABA7-5229-482E-9E25-BDFC170CE79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A6ABA7-5229-482E-9E25-BDFC170CE79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218201A8-4412-42FE-9D2E-1CDD53C2AB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218201A8-4412-42FE-9D2E-1CDD53C2AB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218201A8-4412-42FE-9D2E-1CDD53C2AB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218201A8-4412-42FE-9D2E-1CDD53C2AB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE08518B-24D4-4FE5-A956-C257C31D5B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE08518B-24D4-4FE5-A956-C257C31D5B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE08518B-24D4-4FE5-A956-C257C31D5B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE08518B-24D4-4FE5-A956-C257C31D5B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDE54870-C020-4D8D-8695-D6C83E66024B} = {F8958017-2266-40D7-822C-6133CAB058CA}
+		{C4B1B9F0-BA0D-46DA-B687-97917388E776} = {F8958017-2266-40D7-822C-6133CAB058CA}
+		{785BCA09-A0F3-4B86-BB2B-6B34E4959B7E} = {661B453A-EE55-4B83-A428-7F96D1D71F66}
+		{DF99C8BC-0CD7-46C6-BD03-D7CBCC4B3543} = {F8958017-2266-40D7-822C-6133CAB058CA}
+		{B7A6ABA7-5229-482E-9E25-BDFC170CE79C} = {185B6FA4-599D-4FB3-A8D2-3D4104C33C00}
+		{218201A8-4412-42FE-9D2E-1CDD53C2AB6F} = {661B453A-EE55-4B83-A428-7F96D1D71F66}
+		{FF71F6C5-DE9C-4CC5-B3E6-E4198B571835} = {185B6FA4-599D-4FB3-A8D2-3D4104C33C00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F257EEE8-9223-4314-B21A-F8632742A48D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Sms.Sender.DataContracts\Sms.Sender.DataContracts.projitems*{785bca09-a0f3-4b86-bb2b-6b34e4959b7e}*SharedItemsImports = 13
+		src\Sms.Sender.DataContracts\Sms.Sender.DataContracts.projitems*{ae08518b-24d4-4fe5-a956-c257c31d5b2c}*SharedItemsImports = 5
+		src\Sms.Sender.DataContracts\Sms.Sender.DataContracts.projitems*{b7a6aba7-5229-482e-9e25-bdfc170ce79c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

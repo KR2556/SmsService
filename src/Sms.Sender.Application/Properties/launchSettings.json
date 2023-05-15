@@ -1,0 +1,38 @@
+{
+    "profiles": {
+        "Development": {
+            "commandName": "Project",
+            "launchBrowser": false,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": true
+        },
+        "Production": {
+            "commandName": "Project",
+            "launchBrowser": false,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Production"
+            },
+            "dotnetRunMessages": true
+        },
+        "Docker - Development": {
+            "commandName": "Docker",
+            "launchBrowser": false,
+            "publishAllPorts": true,
+            "useSSL": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "Docker - Production": {
+            "commandName": "Docker",
+            "launchBrowser": false,
+            "publishAllPorts": true,
+            "useSSL": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Production"
+            }
+        }
+    }
+}

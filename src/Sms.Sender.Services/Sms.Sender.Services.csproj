@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sms.Sender.Provider.Mock\Sms.Sender.Provider.Mock.csproj" />
+    <ProjectReference Include="..\Sms.Sender.Provider.Twilio\Sms.Sender.Provider.Twilio.csproj" />
+    <ProjectReference Include="..\Sms.Sender.Provider\Sms.Sender.Provider.csproj" />
+  </ItemGroup>
+
+</Project>
